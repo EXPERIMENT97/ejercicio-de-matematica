@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    front-family: "Arial";
+}
+button{
+      margin: 5px;
+  }
+
+a{
+    padding: 5px;
+    border: 1px  solid #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+titulo{
+    column-count: 2;
+}
