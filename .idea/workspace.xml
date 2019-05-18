@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a7896c7-eb3d-402c-932b-8979f592a13a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Segmentos y Angulos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/Isosceles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/acutangulo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/area-de-triangulo-isosceles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/equilatero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/escaleno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/obtusangulo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/parallelogram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/rectangulo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Area, Perimetro y Volumen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Area, Perimetro y Volumen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figuras y Angulos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miEstilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/miEstilo.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -49,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Area, Perimetro y Volumen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            <state relative-caret-position="513">
+              <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -86,13 +73,13 @@
         <option value="$PROJECT_DIR$/Area, perimetro y volumen.html" />
         <option value="$PROJECT_DIR$/miEstilo.css" />
         <option value="$PROJECT_DIR$/Figuras y Angulos.html" />
-        <option value="$PROJECT_DIR$/Area, Perimetro y Volumen.html" />
         <option value="$PROJECT_DIR$/Segmentos y Angulos.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Area, Perimetro y Volumen.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -108,6 +95,11 @@
             <path>
               <item name="ejercicio-de-matematica" type="b2602c69:ProjectViewProjectNode" />
               <item name="ejercicio-de-matematica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ejercicio-de-matematica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ejercicio-de-matematica" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,17 +161,18 @@
       <updated>1557921612821</updated>
       <workItem from="1557921619274" duration="4386000" />
       <workItem from="1557935757794" duration="4234000" />
-      <workItem from="1558044365802" duration="9303000" />
+      <workItem from="1558044365802" duration="15136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17923000" />
+    <option name="totallyTimeSpent" value="23756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23363096" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4868217" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -217,13 +210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Area, Perimetro y Volumen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Segmentos y Angulos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -235,6 +221,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="101" selection-start-line="16" selection-start-column="101" selection-end-line="16" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Area, Perimetro y Volumen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
         </state>
       </provider>
     </entry>
