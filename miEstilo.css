@@ -2,9 +2,22 @@ body{
     background: url("imagenes/descarga.jpg");
     text-align: center;
 }
+
+#titulo-principal{
+    front-size: 800px;
+    text-align: center;
+    color: #cb3234;
+}
+
 h1{
     front-family: "Arial";
 }
+
+.descripcion{
+    front-size: 12px;
+    text-align: justify;
+}
+
 button{
       margin: 5px;
   }

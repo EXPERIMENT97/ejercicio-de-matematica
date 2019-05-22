@@ -9,57 +9,68 @@
 </head>
 <body>
 <header>
-        <h1><b>Area, perimetro y volumen</b></h1>
+        <h1 id="titulo-principal"><b>Area, perimetro y volumen</b></h1>
     <section>
         <h2><u>Parte teorica</u></h2>
         <h3>Triangulos</h3>
-        <p>Tomamos como ejemplo el siguiente triangulo para explicar las formulas</p>
+        <p class="descripcion">Tomamos como ejemplo el siguiente triangulo para explicar las formulas</p>
         <p><img src="imagenes/area-de-triangulo-isosceles.png"></p>
         <p>Es un triangulos Isosceles</p>
-        <h4><u>Area</u></h4>
-        <p>Se calcula el Area: A+B+C</p>
-        <h4><u>Perimetro</u></h4>
-        <p>Se calcula el Perimetro: (b*h)/2</p>
+        <h4 class="descripcion"><u>Area</u></h4>
+        <p class="descripcion">Se calcula el Area: A+B+C</p>
+        <h4 class="descripcion"><u>Perimetro</u></h4>
+        <p class="descripcion">Se calcula el Perimetro: (b*h)/2</p>
+        <input type="number" name="base" min="0" step="10">* <input type="number" name="altura" min="0" step="10"/ <input type="number" name="ladoC" min="0" step="10">=  <input type="number" name="perimetro" min="0" step="10" disabled>
+        <canvas></canvas>
         <h3>Paralelogramos</h3>
-        <p>Tomamos como ejemplo el siguiente paralelogramo</p>
+        <p class="descripcion">Tomamos como ejemplo el siguiente paralelogramo</p>
         <p><img src="imagenes/parallelogram.png"></p>
+        <h4 class="descripcion"><u>Area</u></h4>
+        <p class="descripcion">Se calcula el Area: 2*(a+b)</p>
+        <h4 class="descripcion"><u>Perimetro</u></h4>
+        <p class="descripcion">Se calcula el Perimetro: b*h</p>
         <h3>Rectangulo</h3>
-        <p>Tomamos como ejemplo el siguiente rectangulo</p>
+        <p class="descripcion">Tomamos como ejemplo el siguiente rectangulo</p>
         <p><img src="imagenes/area-de-rectangulo.jpg"></p>
-        <h4><u>Area</u></h4>
-        <p>Se calcula el Area: b*a</p>
-        <h4><u>Perimetro</u></h4>
-        <p>Se calcula el Perimetro: 2*(b+a)</p>
+        <h4 class="descripcion"><u>Area</u></h4>
+        <p class="descripcion">Se calcula el Area: b*a</p>
+        <h4 class="descripcion"><u>Perimetro</u></h4>
+        <p class="descripcion">Se calcula el Perimetro: 2*(b+a)</p>
+        <input type="number" name="ladoA" min="0" step="10">+
+        <input type="number" name="ladoB" min="0" step="10"+
+        <input type="number" name="ladoC" min="0" step="10">=
+        <input type="number" name="perimetro" min="0" step="10" disabled>
+        <canvas></canvas>
         <h3>Cuadrado</h3>
-        <p>Tomamos como ejemplo el siguiente cuadrado</p>
+        <p class="descripcion">Tomamos como ejemplo el siguiente cuadrado</p>
         <p><img src="imagenes/area-de-cuadrado.jpg"></p>
-        <h4><u>Area</u></h4>
-        <p>Se calcula el Area: a^2</p>
-        <h4><u>Perimetro</u></h4>
-        <p>Se calcula el Perimetro: 4*a</p>
+        <h4 class="descripcion"><u>Area</u></h4>
+        <p class="descripcion">Se calcula el Area: a^2</p>
+        <h4 class="descripcion"><u>Perimetro</u></h4>
+        <p class="descripcion">Se calcula el Perimetro: 4*a</p>
         <h3>Rombo</h3>
         <p>Tomamos como ejemplo el siguiente rombo</p>
         <p><img src="imagenes/rombo.png"></p>
-        <h4><u>Area</u></h4>
-        <p>Se calcula el Area: (D*d)/2</p>
+        <h4 class="descripcion"><u>Area</u></h4>
+        <p class="descripcion">Se calcula el Area: (D*d)/2</p>
         <h4><u>Perimetro</u></h4>
-        <p>Se calcula el Perimetro: 4*a</p>
+        <p class="descripcion">Se calcula el Perimetro: 4*a</p>
         <h3>Trapecio</h3>
-        <p>Tomamos como ejemplo los siguientes trapecios</p>
+        <p class="descripcion">Tomamos como ejemplo los siguientes trapecios</p>
         <p><img src="imagenes/area-de-un-trapecio.png"></p>
         <p><img src="imagenes/trapecio.png"></p>
-        <h4><u>Area</u></h4>
-        <p>Se calcula el Area: B+b+c+d</p>
+        <h4 class="descripcion"><u>Area</u></h4>
+        <p class="descripcion">Se calcula el Area: B+b+c+d</p>
         <h4><u>Perimetro</u></h4>
-        <p>Se calcula el Perimetro: ((B+b)*h)/2 o ((B+b)*a)/2</p>
+        <p class="descripcion">Se calcula el Perimetro: ((B+b)*h)/2 o ((B+b)*a)/2</p>
         <h3>Circulo</h3>
-        <p>Tomamos como ejemplo el siguiente circulo</p>
+        <p class="descripcion">Tomamos como ejemplo el siguiente circulo</p>
         <p><img src="imagenes/circulo.png"></p>
-        <h4><u>Area</u></h4>
-        <p>Se calcula el Area: π*r^2</p>
+        <h4 class="descripcion"><u>Area</u></h4>
+        <p class="descripcion">Se calcula el Area: π*r^2</p>
         <h4><u>Perimetro</u></h4>
-        <p>Se calcula el Perimetro: 2*π*r</p>
-        <h4><u>Volumen</u></h4>
+        <p class="descripcion">Se calcula el Perimetro: 2*π*r</p>
+        <h4 class="descripcion"><u>Volumen</u></h4>
         <p>
             serialas figuras vistas en 3º dimension
         </p>
