@@ -17,5 +17,6 @@ function saludar1() {
 }
 function saludar2() {
     alert("Bienvenido a Area, Perimetro y Volumen")
+}function Pr() {
+    document.
 }
-func
