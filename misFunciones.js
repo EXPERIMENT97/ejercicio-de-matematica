@@ -17,6 +17,45 @@ function saludar1() {
 }
 function saludar2() {
     alert("Bienvenido a Area, Perimetro y Volumen")
-}function Pr() {
+}
+function Atri() {
+
+}
+function Ptri() {
+
+}
+function Ap() {
+
+}
+function Pp() {
+
+}
+function Are() {
+
+}
+function Pre() {
     document.
+}
+function Ac() {
+
+}
+function Pc() {
+
+}
+function Aro() {
+    
+}
+function Pro() {
+    
+}function Atra() {
+    
+}
+function Ptra() {
+    
+}
+function Ac() {
+    
+}
+function Pc() {
+    
 }
