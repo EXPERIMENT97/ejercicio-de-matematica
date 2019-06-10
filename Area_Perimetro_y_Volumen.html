@@ -41,31 +41,33 @@
         <p><img src="imagenes/area-de-rectangulo.jpg"></p>
         <h4 class="descripcion"><u>Area</u></h4>
         <p class="descripcion">Se calcula el Area: b*a</p>
-        <input id="numare1" type="text" name="base" onchange="Are"> * <input id="numare2" type="text" name="altura" onchange="Are"> = <input>
+        <input id="numare1" type="text" name="base" onchange="Are"> * <input id="numare2" type="text" name="altura" onchange="Are"> = <input id="totalAre" type="number" name="area" disabled>
         <canvas></canvas>
         <h4 class="descripcion"><u>Perimetro</u></h4>
         <p class="descripcion">Se calcula el Perimetro: 2*(b+a)</p>
-        2 x ( <input id="numpr1" type="text" name="lado_br" onchange="Pre"> + <input id="numpr2" type="text" name="lado_ar" onchange="Pre"> ) = <input id="totalPr" type="number" name="perimetro" disabled>
+        2 x ( <input id="numpr1" type="text" name="lado_br" onchange="Pre"> + <input id="numpr2" type="text" name="lado_ar" onchange="Pre"> ) = <input id="totalPre" type="number" name="perimetro" disabled>
         <canvas></canvas>
         <h3>Cuadrado</h3>
         <p class="descripcion">Tomamos como ejemplo el siguiente cuadrado</p>
         <p><img src="imagenes/area-de-cuadrado.jpg"></p>
         <h4 class="descripcion"><u>Area</u></h4>
         <p class="descripcion">Se calcula el Area: a^2</p>
+        <input id="numac1" type="text" name="altura" onchange="Ac"> ^ 2 = <input id="totalAc" type="number" name="area" disabled>
         <canvas></canvas>
         <h4 class="descripcion"><u>Perimetro</u></h4>
         <p class="descripcion">Se calcula el Perimetro: 4*a</p>
+        4 * <input id="numpc1" type="text" name="altura" onchange="Pc"> = <input id="totalPc" type="number" name="perimetro" disabled>
         <canvas></canvas>
         <h3>Rombo</h3>
         <p>Tomamos como ejemplo el siguiente rombo</p>
         <p><img src="imagenes/rombo.png"></p>
         <h4 class="descripcion"><u>Area</u></h4>
         <p class="descripcion">Se calcula el Area: (D*d)/2</p>
-        <input onchange="Aro">
+        ( <input id="numaro1" type="text" name="Diagonal mayor o lado" onchange="Aro"> * <input id="numaro2" type="text" name="diagonal menor o altura" onchange="Aro"> ) / 2 = <input id="totalAro" type="number" name="area" disabled>
         <canvas></canvas>
         <h4><u>Perimetro</u></h4>
         <p class="descripcion">Se calcula el Perimetro: 4*a</p>
-        <input onchange="Pro">
+        4 * <input id="numpro1" type="text" name="altura" onchange="Pro"> = <input id="totalPro" type="number" name="perimetro" disabled>
         <canvas></canvas>
         <h3>Trapecio</h3>
         <p class="descripcion">Tomamos como ejemplo los siguientes trapecios</p>
@@ -73,20 +75,23 @@
         <p><img src="imagenes/trapecio.png"></p>
         <h4 class="descripcion"><u>Area</u></h4>
         <p class="descripcion">Se calcula el Area: B+b+c+d</p>
-        <input onchange="Atra">
+        <input id="numatra1" type="text" name="Base mayor" onchange="Atra"> + <input id="numatra2" type="text" name="base menor" onchange="Atra"> + <input id="numatra3" type="text" name="lado c" onchange="Atra"> + <input id="numatra4" type="text" name="lado d" onchange="Atra"> = <input id="totalAtra" type="number" name="ares" disabled>
         <canvas></canvas>
         <h4><u>Perimetro</u></h4>
         <p class="descripcion">Se calcula el Perimetro: ((B+b)*h)/2 o ((B+b)*a)/2</p>
-        <input onchange="Ptra">
+        ( ( <input id="numptra1" type="text" name="Base mayor" onchange="Ptra"> + <input id="numtra2" type="text" name="base menor" onchange="Ptra"> ) * <input id="numtra" type="text" name="altura" onchange="Ptra"> ) / 2 = <input id="totalPtra" type="number" name="perimetro" disabled>
         <canvas></canvas>
         <h3>Circulo</h3>
         <p class="descripcion">Tomamos como ejemplo el siguiente circulo</p>
         <p><img src="imagenes/circulo.png"></p>
         <h4 class="descripcion"><u>Area</u></h4>
         <p class="descripcion">Se calcula el Area: π*r^2</p>
+        <input id="numac" type="text" name=""> * <input id="numac2" type="text" name="radio" onchange="Ac"> ^ 2 = <input id="totalAc" type="number" name="area" disabled>
         <canvas></canvas>
         <h4><u>Perimetro</u></h4>
         <p class="descripcion">Se calcula el Perimetro: 2*π*r</p>
+        2 * <input> * <input id="numpc" type="text" name="radio" onchange="Pc"> = <input id="totalPc" type="number" name="perimetro" disabled>
+        <canvas></canvas>
         <h4 class="descripcion"><u>Volumen</u></h4>
         <p>
             serialas figuras vistas en 3º dimension
