@@ -7,5 +7,7 @@ Página destinada a calculos geométricos.
 * CSS
 * JS
 
+## Link de la pagina: https://experiment97.github.io/ejercicio-de-matematica/
+
 ### Autor
 Lucas Muguiro
