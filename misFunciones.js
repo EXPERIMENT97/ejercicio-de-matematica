@@ -19,10 +19,10 @@ function saludar2() {
     alert("Bienvenido a Area, Perimetro y Volumen")
 }
 function Atri() {
-
+    document.opeMat.area_tri.value = Number(document.opeMat.A.value) + Number(document.opeMat.B.value) + Number(document.opeMat.C.value);
 }
 function Ptri() {
-
+    document.opeMat.perimetro_tri.value = (Number(document.opeMat.base.value) * Number(document.opeMat.altura.value));
 }
 function Ap() {
 
@@ -32,14 +32,20 @@ function Pp() {
 }
 function Are() {
 
-}
+}    //document.opeMat.pe.value = 2 *( (Number(document.opeMat.lado_br.value) + Number(document.opeMat.lado_ar.value)));
+
 function Pre() {
-    document.
+    document.opeMat.perimetro_re.value = 2 *( Number(document.opeMat.lado_br.value) + Number(document.opeMat.lado_ar.value));
+    //var total = document.getElementById("totalPre");
+    //var a = parseInt(document.getElementById("numpr1").value);
+    //var b = parseInt(document.getElementById("numpr2").value);
+    //totalLado = 2 * (a + b);
+    //total.value = totalLado;
 }
-function Ac() {
+function Acua() {
 
 }
-function Pc() {
+function Pcua() {
 
 }
 function Aro() {
@@ -53,9 +59,9 @@ function Pro() {
 function Ptra() {
     
 }
-function Ac() {
+function Acir() {
     
 }
-function Pc() {
+function Pcir() {
     
 }
