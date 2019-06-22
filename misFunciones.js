@@ -87,3 +87,36 @@ function Pcir() {
 function Acir() {
     //document.opeMat.perimetro_cir.value = 2* Number(document.opeMat..value) * Number(document.opeMat.radio.value);
 }
+function mostrar_iso() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    var img = new Image();
+    img.src = "imagenes/isosceles.jpg";
+
+    img.onload = function(){ //pre-carga la funcion para que se ejecute al primer click
+        ctx.drawImage(img, 0, 0);
+    }
+}
+function mostrar_equ() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    var img = new Image();
+    img.src = "imagenes/equilatero.png";
+
+    img.onload = function(){ //pre-carga la funcion para que se ejecute al primer click
+        ctx.drawImage(img, 0, 0);
+    }
+}
+function mostrar_esc() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    var img = new Image();
+    img.src = "imagenes/escaleno.png";
+
+    img.onload = function(){ //pre-carga la funcion para que se ejecute al primer click
+        ctx.drawImage(img, 0, 0);
+    }
+}
