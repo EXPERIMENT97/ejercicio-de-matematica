@@ -42,30 +42,29 @@ function Ap() {
 function Pre() {
     var base_re = document.getElementById("numpre1").value;
     var altura_re = document.getElementById("numpre2").value;
-    document.getElementById("totalPre").value = Number(base_re) * Number(altura_re);
+    document.getElementById("totalPre").value = 2 * (Number(base_re) + Number(altura_re));
 }
-
 function Are() {
     var lado_br = document.getElementById("numare1").value;
     var lado_ar = document.getElementById("numare2").value;
-    document.getElementById("totalAre").value = 2 * (Number(lado_br) + Number(lado_ar));
+    document.getElementById("totalAre").value = Number(lado_br) * Number(lado_ar);
 }
 function Pcua() {
     var altura_pcua = document.getElementById("numpc1").value;
-    document.getElementById("totalPcu").value = Number(altura_pcua);
+    document.getElementById("totalPcua").value = 4 * Number(altura_pcua);
 }
 function Acua() {
     var altura_acua = document.getElementById("numac1").value;
-    document.getElementById("totalAcua").value = 4 * Number(altura_acua);
+    document.getElementById("totalAcua").value = Number(altura_acua) ^ 2;
 }
 function Pro() {
-    var Diagonal_mayor_o_lado = document.getElementById("numpro1").value;
-    var diagonal_menor_o_lado = document.getElementById("numpro2").value;
-    document.getElementById("totalPro").value = (Number(Diagonal_mayor_o_lado) * Number(diagonal_menor_o_lado)) /2;
+    var altura_pro = document.getElementById("numpro1").value;
+    document.getElementById("totalPro").value = 4 * Number(altura_pro);
 }
 function Aro() {
-    var altura_aro = document.getElementById("numaro1").value;
-    document.getElementById("totalAro").value = 4 * Number(altura_aro);
+    var Diagonal_mayor_o_lado = document.getElementById("numaro1").value;
+    var diagonal_menor_o_lado = document.getElementById("numaro2").value;
+    document.getElementById("totalAro").value = (Number(Diagonal_mayor_o_lado) * Number(diagonal_menor_o_lado)) /2;
 }
 function Ptra() {
     var Base_mayor = document.getElementById("numptra1").value;

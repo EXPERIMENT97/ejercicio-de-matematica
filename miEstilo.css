@@ -37,3 +37,7 @@ titulo{
     width: 100%;
     height: 100%;
 }
+section{
+    background: rgba(255, 255, 255, 0.8);
+    margen: 5px 50px;
+}
