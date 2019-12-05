@@ -86,8 +86,15 @@ function Pcir() {
 function Acir() {
     //document.opeMat.perimetro_cir.value = 2* Number(document.opeMat..value) * Number(document.opeMat.radio.value);
 }
+
+/**
+ * Descripción
+ * @method Mostrar
+ * @return Valor que retorna
+ */
+
 function mostrar_iso() {
-    var canvas = document.getElementById("myCanvas");
+    var canvas = document.getElementById("myCanvas2");
     var ctx = canvas.getContext("2d");
 
     var img = new Image();
@@ -109,7 +116,7 @@ function mostrar_equ() {
     }
 }
 function mostrar_esc() {
-    var canvas = document.getElementById("myCanvas");
+    var canvas = document.getElementById("myCanvas3");
     var ctx = canvas.getContext("2d");
 
     var img = new Image();
