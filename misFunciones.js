@@ -10,59 +10,119 @@
  * @return Valor que retorna
  */
 function saludar_inicio() {
-    alert("Bienevenido a mi pagina. Espero que les guste.")
+    alert("Bienevenido a mi pagina. Espero que les guste.");
 }
 function saludar1() {
-    alert("Bienvenido a Segementos y Angulos.")
+    alert("Bienvenido a Segementos y Angulos.");
 }
 function saludar2() {
-    alert("Bienvenido a Area, Perimetro y Volumen")
-}
-function Atri() {
-    document.opeMat.area_tri.value = Number(document.opeMat.A.value) + Number(document.opeMat.B.value) + Number(document.opeMat.C.value);
+    //alert("Bienvenido a Area, Perimetro y Volumen");
 }
 function Ptri() {
-    document.opeMat.perimetro_tri.value = (Number(document.opeMat.base.value) * Number(document.opeMat.altura.value)) / 2;
+    var A = document.getElementById("numptri1").value;
+    var B = document.getElementById("numptri2").value;
+    var C = document.getElementById("numptri3").value;
+    document.getElementById("totalPtri").value = Number(A) + Number(B) + Number(C);
 }
-function Ap() {
-    document.opeMat.area_p.value = 2 * (Number(document.opeMat.altura.value) + Number(document.opeMat.base.value));
+function Atri() {
+    var base_tri = document.getElementById("numatri1").value;
+    var altura_tri = document.getElementById("numatri2").value;
+    document.getElementById("totalAtri").value = (Number (base_tri) * Number(altura_tri))/2;
 }
 function Pp() {
-    document.opeMat.perimetro_p.value = Number(document.opeMat.base_pp.value) * Number(document.opeMat.altura_pp.value);
+    var altura_pp = document.getElementById("numpp1").value;
+    var base_pp = document.getElementById("numpp2").value;
+    document.getElementById("totalPp").value = 2 * (Number(altura_pp) + Number(base_pp));
+}
+function Ap() {
+    var altura_ap = document.getElementById("numap1").value;
+    var base_ap = document.getElementById("numap2").value;
+    document.getElementById("totalAp").value = Number(altura_ap) * Number(base_ap);
+}
+function Pre() {
+    var base_re = document.getElementById("numpre1").value;
+    var altura_re = document.getElementById("numpre2").value;
+    document.getElementById("totalPre").value = 2 * (Number(base_re) + Number(altura_re));
 }
 function Are() {
-    document.opeMat.area_re.value = Number(document.opeMat.base.value) * Number(document.opeMat.altura.value);
-}    //document.opeMat.pe.value = 2 *( (Number(document.opeMat.lado_br.value) + Number(document.opeMat.lado_ar.value)));
-
-function Pre() {
-    document.opeMat.perimetro_re.value = 2 *( Number(document.opeMat.lado_br.value) + Number(document.opeMat.lado_ar.value));
-    //var total = document.getElementById("totalPre");
-    //var a = parseInt(document.getElementById("numpr1").value);
-    //var b = parseInt(document.getElementById("numpr2").value);
-    //totalLado = 2 * (a + b);
-    //total.value = totalLado;
-}
-function Acua() {
-    document.opeMat.area_cua.value = Number(document.opeMat.altura.value)
+    var lado_br = document.getElementById("numare1").value;
+    var lado_ar = document.getElementById("numare2").value;
+    document.getElementById("totalAre").value = Number(lado_br) * Number(lado_ar);
 }
 function Pcua() {
-    document.opeMat.perimetro_cua.value = 4 * Number(document.opeMat.altura_cua.value);
+    var altura_pcua = document.getElementById("numpc1").value;
+    document.getElementById("totalPcua").value = 4 * Number(altura_pcua);
 }
-function Aro() {
-    document.opeMat.area_ro.value = (Number(document.opeMat.Diagonal_mayor_o_lado.value) * Number(document.opeMat.diagonal_menor_o_altura.value)) / 2;
+function Acua() {
+    var altura_acua = document.getElementById("numac1").value;
+    document.getElementById("totalAcua").value = Number(altura_acua) ^ 2;
 }
 function Pro() {
-    document.opeMat.perimetro_ro.value = 4 * Number(document.opeMat.altura.value);
+    var altura_pro = document.getElementById("numpro1").value;
+    document.getElementById("totalPro").value = 4 * Number(altura_pro);
 }
-function Atra() {
-    document.opeMat.area_tra.value = Number(document.opeMat.Base_mayor.value) + Number(document.opeMat.base_menor.value) + Number(document.opeMat.lado_c.value) + Number(document.opeMat.lado_d.value);
+function Aro() {
+    var Diagonal_mayor_o_lado = document.getElementById("numaro1").value;
+    var diagonal_menor_o_lado = document.getElementById("numaro2").value;
+    document.getElementById("totalAro").value = (Number(Diagonal_mayor_o_lado) * Number(diagonal_menor_o_lado)) /2;
 }
 function Ptra() {
-    document.opeMat.perimetro_tra.value = ((Number(document.opeMat.Base_mayor.value) + Number(document.opeMat.base_menor.value)) * Number(document.opeMat.altura.value)) / 2;
+    var Base_mayor = document.getElementById("numptra1").value;
+    var base_menor = document.getElementById("numptra2").value;
+    var lado_c = document.getElementById("numptra3").value;
+    var lado_d = document.getElementById("numptra4").value;
+    document.getElementById("totalPtra").value = Number(Base_mayor) + Number(base_menor) + Number(lado_c) + Number(lado_d);
 }
-function Acir() {
-    //document.opeMat.area_cir.value = Number(document.opeMat..value) * Number(document.opeMat.radio.value) ^ 2;
+function Atra() {
+    var Base_mayor = document.getElementById("numatra1").value;
+    var base_menor = document.getElementById("numatra2").value;
+    var altura_tra = document.getElementById("numatra3").value;
+    document.getElementById("totalAtra").value = ((Number(Base_mayor)+ Number(base_menor)) * Number(altura_tra)) / 2;
 }
 function Pcir() {
+    //var
+    //document.opeMat.area_cir.value = Number(document.opeMat..value) * Number(document.opeMat.radio.value) ^ 2;
+}
+function Acir() {
     //document.opeMat.perimetro_cir.value = 2* Number(document.opeMat..value) * Number(document.opeMat.radio.value);
+}
+
+/**
+ * Descripción
+ * @method Mostrar
+ * @return Valor que retorna
+ */
+
+function mostrar_iso() {
+    var canvas = document.getElementById("myCanvas2");
+    var ctx = canvas.getContext("2d");
+
+    var img = new Image();
+    img.src = "imagenes/isosceles.jpg";
+
+    img.onload = function(){ //pre-carga la funcion para que se ejecute al primer click
+        ctx.drawImage(img, 0, 0);
+    }
+}
+function mostrar_equ() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    var img = new Image();
+    img.src = "imagenes/equilatero.png";
+
+    img.onload = function(){ //pre-carga la funcion para que se ejecute al primer click
+        ctx.drawImage(img, 0, 0);
+    }
+}
+function mostrar_esc() {
+    var canvas = document.getElementById("myCanvas3");
+    var ctx = canvas.getContext("2d");
+
+    var img = new Image();
+    img.src = "imagenes/escaleno.png";
+
+    img.onload = function(){ //pre-carga la funcion para que se ejecute al primer click
+        ctx.drawImage(img, 0, 0);
+    }
 }
